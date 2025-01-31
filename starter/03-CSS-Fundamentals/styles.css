@@ -1,32 +1,38 @@
-h1 {
+h1, h2, h3, h4, p, li {
     font-family: sans-serif;
+}
+
+h1 {
     font-size: 26px;
 }
 
 h2 {
-    font-family: sans-serif;
     font-size: 40px;
 }
 
 h3 {
-    font-family: sans-serif;
     font-size: 30px;
 }
 
 h4 {
-    font-family: sans-serif;
     font-size: 20px;
     text-align: center;
     text-transform:uppercase;
 }
 
 p {
-    font-family: sans-serif;
     font-size: 22px;
     line-height: 1.5;
 }
 
 li {
-    font-family: sans-serif;
     font-size: 20px;
+}
+
+article header p {
+    font-style: italic;
+}
+
+footer p {
+    font-size: 16px;
 }
