@@ -1,91 +1,94 @@
 * {
-    /* border-top: 10px solid #1098ad; */
-    margin: 0;
-    padding: 0;
+  /* border-top: 10px solid #1098ad; */
+  margin: 0;
+  padding: 0;
 }
 
 /* PAGE SECTIONS */
 
 .container {
-    width: 800px;
-    margin: 0 auto;
-
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
 }
 
 nav {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 article {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 body {
-    color: #444;
-    font-family: sans-serif;
-    border-top: 10px solid #1098ad;
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
 }
 
 .main-header {
-    background-color: #f7f7f7;
-    padding: 20px 40px;
-    margin-bottom: 60px;
-    height: 80px;
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
 }
 
 .post-header {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
+  position: relative;
 }
 
 aside {
-    background-color: #f7f7f7;
-    border-top: 5px solid #1098ad;
-    border-bottom: 5px solid #1098ad;
-    padding: 50px 0;
-    width: 500px;
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
+  width: 500px;
 }
 
 /* SMALLER ELEMENTS */
 
-h1, h2, h3 {
-    color: #1098ad;
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 
 h1 {
-    font-size: 26px;
-    text-transform: uppercase;
-    font-style: italic;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
 }
 
 h2 {
-    font-size: 40px;
-    margin-bottom: 30px;
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
-    font-size: 30px;
-    margin-top: 40px;
+  font-size: 30px;
+  margin-top: 40px;
 }
 
 h4 {
-    font-size: 20px;
-    text-align: center;
-    text-transform:uppercase;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 p {
-    font-size: 22px;
-    line-height: 1.5;
-    margin-bottom: 15px;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
 }
 
 li {
-    font-size: 20px;
-    margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 li:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 /* article header p {
@@ -93,91 +96,101 @@ li:last-child {
 } */
 
 #author {
-    font-style: italic;
-    font-size: 18px;
+  font-style: italic;
+  font-size: 18px;
 }
 
 #copyright {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .related-author {
-    font-size: 18px;
-    font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .related {
-    list-style: none;
+  list-style: none;
 }
 
-ol, ul {
-    margin-left: 50px;
-    margin-bottom: 20px;
+ol,
+ul {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li:first-child {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 li:last-child {
-    font-style: italic;
+  font-style: italic;
 }
 
 li:nth-child(even) {
-    /* color: red; */
+  /* color: red; */
 }
 
 article p:first-child {
-    color: red; /* doesn't work as expected as a paragraph is not the first element in the article */
+  color: red; /* doesn't work as expected as a paragraph is not the first element in the article */
 }
 
 article p:last-child {
-    color: red; /* whereas this works fine as the last element in the article is a paragraph */
+  color: red; /* whereas this works fine as the last element in the article is a paragraph */
 }
 
 /* Styling links */
 a:link {
-    color: #1098ad;
-    text-decoration: none;
+  color: #1098ad;
+  text-decoration: none;
 }
 
 a:visited {
-    /* color: #777; */
-    color: #1098ad;
+  /* color: #777; */
+  color: #1098ad;
 }
 
 a:hover {
-    color: orangered;
-    font-weight: bold;
-    text-decoration: underline orangered;
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
 }
 
 a:active {
-    background-color: black;
-    font-style: italic;
+  background-color: black;
+  font-style: italic;
 }
 
 a {
-    color: red;
+  color: red;
 }
 
 .post-image {
-    width: 50%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 nav a:link {
-    /* background-color: orangered;
+  /* background-color: orangered;
     margin: 20px;
     padding: 20px;
     display: block; */
-    margin-right: 30px;
-    margin-top: 10px;
-    display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
 }
 
 nav a:link:last-child {
-    margin-right: 0;
+  margin-right: 0;
+}
+
+.like-button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
 
 /* Resolving conflicts */
