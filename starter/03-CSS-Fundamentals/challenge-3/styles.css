@@ -8,20 +8,18 @@ body {
   font-size: 14px;
 }
 
-.container {
+.product {
+  border: 4px solid black;
   width: 825px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
-article {
-  border: 5px solid black;
-}
-
-.heading {
+.product-title {
   text-align: center;
+  font-size: 22px;
   background-color: #eee;
-  padding: 15px 0;
   text-transform: uppercase;
+  padding: 15px 0;
 }
 
 p {
@@ -44,8 +42,6 @@ p {
 .more-info:link,
 .more-info:visited {
   color: black;
-  display: block;
-  margin-bottom: 30px;
 }
 
 .more-info:hover,
@@ -58,7 +54,8 @@ p {
 .details-title {
   text-transform: uppercase;
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 .details-list {
@@ -66,7 +63,7 @@ p {
   margin-left: 20px;
 }
 
-li {
+.details-list li {
   margin-bottom: 10px;
 }
 /* Button */
@@ -78,15 +75,12 @@ li {
   font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
-  display: block;
+  padding: 15px;
   width: 100%;
-  padding-top: 15px;
-  padding-bottom: 10px;
 }
 
 .add-to-cart:hover {
+  border-top: 4px solid black;
   background-color: white;
   color: black;
-  border-top: 5px solid black;
-  padding: 10px 0;
 }
