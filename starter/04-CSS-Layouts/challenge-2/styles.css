@@ -18,6 +18,9 @@ body {
 
 .container {
   /* background-color: red; */
+  display: flex;
+  gap: 40px;
+  /* align-items: center; */
 }
 
 .sale {
@@ -58,14 +61,20 @@ p {
 
 .product-info {
   /* margin-right: 40px; */
-  /* margin-top: 20px; */
+  margin-top: 20px;
   /* width: 243px; */
   /* float: left; */
 }
 
+.product-info-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .price {
   font-size: 20px;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   /* float: left; */
 }
 
@@ -74,9 +83,9 @@ p {
   color: #777;
   font-size: 12px;
   font-weight: bold;
-  margin-top: 4px;
+  /* margin-top: 4px;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 20px; */
   /* float: right; */
 }
 
@@ -96,15 +105,20 @@ p {
   text-decoration: none;
 }
 
+.colors {
+  display: flex;
+  gap: 10px;
+}
+
 .color {
   width: 20px;
   height: 20px;
   /* display: inline-block; */
-  margin: 0 5px;
+  /* margin: 0 5px; */
 }
 
 .color:first-child {
-  margin-left: 0;
+  /* margin-left: 0; */
   background-color: rgb(66, 66, 66);
 }
 
@@ -132,7 +146,7 @@ p {
 /* PRODUCT DETAILS */
 
 .product-details {
-  /* width: 243px; */
+  flex: 0 0 215px;
   /* float: left; */
   margin-top: 20px;
 }
